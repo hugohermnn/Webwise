@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webwise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div>
+        <h1>Loga</h1>
+        </div>
+        <ul>
+            <li><a href="index.html">Start sida</a></li>
+            <li><a href="page2.html">Ny teknologi</a></li>
+            <li><a href="page3.html">Dominanta webbläsare</a></li>
+            <li><a href="page4.html">Dominata företag</a></li>
+            <li><a href="page5.html">Påverkan</a></li>
+        </ul>
+        <div class="button">
+        <button onClick="myFunktion()"> ☀/☾ </button>
+        </div>
+    </div>
+
+    <div class="New">
+        <h3>WebGPU</h3>
+    </div>
+    
+    <div class="text">
+        <p>En av de större utvecklingarna som har skett är att man 
+            har utvecklat WebGPU (Web Graphics Processing Unit) vilket 
+            ska byta ut WebGL (Web Graphics Library). Till en början  
+            är WebGL en teknologi som ska göra det möjligt att ge användaren y
+            möjlighet att påverka 2D- eller 3D-bilder som är framtagna med Javascript.  
+            WebGL lanserades 2011 men med på grund av att AI och andra teknologier har 
+            det behövs en ny lösning för hur webben ska kunna klara av dessa teknologier. WebGPU blev utvecklingsstandard i början av 2020 
+            men har fått en bredare implementering från och med 2023. Målet med detta är att 
+            kunna bygga mer kraftfulla och prestanda-krävande applikationer, som spel och AI 
+            direkt i webbläsaren. WebGPU gör det möjligt för utvecklare att kontrollera hur 
+            'resurser hanteras och hur beräkningar utförs på GPU. Till skillnad från WebGL kan 
+            WebGPU stödja avancerade visuella effekter med högre kvalitet, detta betyder att 
+            applikationer som tidigare bara har fungerat via skrivbordsapplikationer (som spel 
+            till exempel) ska nu kunna köras direkt i webbläsaren med samma prestanda.
+        </p>
+    </div>
+        <div class="New">
+            <h3>Parytown</h3>
+        </div>
+        <div class="text">
+            <p>En annan stor utveckling inom webbteknologi är 
+            Partytown. Det är en teknologi som använder Web Workers, 
+            vilket är en webbläsare funktion som gör det möjligt att köra 
+            Javascript-kod i bakgrunds trådar. Genom att flytta tunga och 
+            resurskrävande tredjeparts skript, som till exempel spårningsverktyg 
+            eller reklam, handlar man ifrån huvudtråden (alltså huvudkodfilen) till 
+            en bakgrunds tråd. Party Town ser till att dessa typer av skripter inte 
+            påverkar prestandan eller laddningstiden av huvudtråden.
+            En av de många styrkorna hos Partytown är att 
+            det kräver väldigt lite manuell konfiguration 
+            för att implementeras på en webbplats. Det som 
+            utvecklaren gör är att ladda ner Partytown via en 
+            Javascript-kod som sedan kommer att hantera alla 
+            tredjeparts skripter på det mest effektiva sättet.  
+            På grund av detta gör det enkelt för redan existerande 
+            webbplatser att integrera detta system utan att behöva 
+            skriva om stora delar av den befintliga koden.
+           Den största begränsningen är att eftersom Partytown 
+           förlitar sig helt på Web Workers-teknologi som inte 
+           alla webbläsare stödjer (även om de flesta moderna gör) 
+           kan det hända att äldre webbläsare inte kan nyttja den här tekniken fullt ut.
+            </p >
+        </div>
+    <script src="/funktion.js"></script>
+</body>
+</html>
